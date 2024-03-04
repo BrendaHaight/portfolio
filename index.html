@@ -15,8 +15,8 @@
     />
   </head>
   <body>
-    <header>
-      <div class="hero">
+    <div class="hero">
+      <header>
         <nav>
           <h1 class="logo">Portfo<span>lio</span></h1>
           <ul>
@@ -27,52 +27,54 @@
           </ul>
         </nav>
       </header>
-        <div class="content">
-          <h4>Hello, my name is</h4>
-          <h2>Brenda <span>Haight</span></h2>
-          <h3>I'm a web Developer student</h3>
-          <div class="newslatter">
-            <form>
-              <input
-                type="email"
-                name="email"
-                id="mail"
-                placeholder="Enter Your Email"
-              />
-              <input type="submit" name="submit" value="Lets Start" />
-            </form>
-          </div>
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h2>Brenda <span>Haight</span></h2>
+        <h3>I'm a web Developer student</h3>
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
         </div>
       </div>
-      <section class="about">
+      <section id="about" class="about">
         <div class="main">
-          <img
-            src="assets/images/brenda-backgroud.jpg"
-            alt="A photo of me in the park."
-          />
-          <div class="about-text">
-            <h2>About Me</h2>
-            <h5>A passionate <span>coder</span></h5>
-            <p>
-              I'm originally from Brazil now making strides in the US. Currently
-              immersed in the world of coding, I find joy in unraveling the
-              intricacies of programming languages and crafting elegant
-              solutions to complex problems. Outside of coding, you'll often
-              find me immersed in the digital realms of video games, where I
-              find inspiration and relaxation. My journey in coding is fueled by
-              the ambition to become a front-end web developer, levaraging my
-              creativity to design immersive user experiences. Ultimately, my
-              dream is to venture into the realm of game development, where I
-              can merge my love for coding with the artistry of gaming. Join me
-              on this exciting journey as I bring visions to life through code
-              and creativity.
+          <h2>About Me</h2>
+          <div class="about-me-section">
+            <img
+              src="assets/images/brenda-backgroud.jpg"
+              alt="A photo of me in the park."
+            />
+            <div class="about-text">
+              <h5>A passionate <span>coder</span></h5>
+              <p>
+                I'm originally from Brazil now making strides in the US.
+                Currently immersed in the world of coding, I find joy in
+                unraveling the intricacies of programming languages and crafting
+                elegant solutions to complex problems. Outside of coding, you'll
+                often find me immersed in the digital realms of video games,
+                where I find inspiration and relaxation. My journey in coding is
+                fueled by the ambition to become a front-end web developer,
+                levaraging my creativity to design immersive user experiences.
+                Ultimately, my dream is to venture into the realm of game
+                development, where I can merge my love for coding with the
+                artistry of gaming. Join me on this exciting journey as I bring
+                visions to life through code and creativity.
+              </p>
               <button type="button">Let's Talk</button>
-            </p>
+            </div>
           </div>
         </div>
       </section>
-
-      <div class="work">
+    </div>
+    <section>
+      <div id="work" class="work">
         <div class="title">
           <h2>Work</h2>
         </div>
@@ -82,10 +84,19 @@
             <i class="fa-solid fa-bars"></i>
             <h5>Web Development</h5>
             <div class="pra">
-              <p>During my bootcamp jorney, I've had opportunity to delve into the exciting world of web development, honing my skills in HTML and CSS.</p>
+              <p>
+                During my bootcamp jorney, I've had opportunity to delve into
+                the exciting world of web development, honing my skills in HTML
+                and CSS.
+              </p>
 
-              <p style="text-align: center;">
-                <a class="button" href="#">Learn More</a>
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://brendahaight.github.io/prework-study-guide/"
+                  target="_blank"
+                  >Learn More</a
+                >
               </p>
             </div>
           </div>
@@ -94,10 +105,19 @@
             <i class="fa-regular fa-user"></i>
             <h5>Web Development</h5>
             <div class="pra">
-              <p>During my bootcamp jorney, I've had opportunity to delve into the exciting world of web development, honing my skills in HTML and CSS.</p>
+              <p>
+                During my bootcamp jorney, I've had opportunity to delve into
+                the exciting world of web development, honing my skills in HTML
+                and CSS.
+              </p>
 
-              <p style="text-align: center;">
-                <a class="button" href="#">Learn More</a>
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://github.com/BrendaHaight/portfolio.git"
+                  target="_blank"
+                  >Learn More</a
+                >
               </p>
             </div>
           </div>
@@ -106,30 +126,47 @@
             <i class="fa-regular fa-bell"></i>
             <h5>Web Development</h5>
             <div class="pra">
-              <p>During my bootcamp jorney, I've had opportunity to delve into the exciting world of web development, honing my skills in HTML and CSS.</p>
+              <p>
+                During my bootcamp jorney, I've had opportunity to delve into
+                the exciting world of web development, honing my skills in HTML
+                and CSS.
+              </p>
 
-              <p style="text-align: center;">
-                <a class="button" href="#">Learn More</a>
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://brendahaight.github.io/horiseon-marketing/"
+                  target="_blank"
+                  >Learn More</a
+                >
               </p>
             </div>
           </div>
         </div>
       </div>
-        
-     <div class="resume">
-      <h2>Resume</h2>
-      <p>Coming Soon: Resume Update!</p>
-      <a class="button-two" href="#">Download</a>
-     </div> 
-     
-     <footer>
+      <div id="resume" class="resume">
+        <h2>Resume</h2>
+        <p>Coming Soon: Resume Update!</p>
+        <a class="button-two" href="#">Download</a>
+      </div>
+    </section>
+
+    <footer>
       <p>Brenda <span>Haight</span></p>
       <p>Thank you for visiting!</p>
       <div class="social">
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/BrendaHaight" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/brenda-haight-b3a88014a/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto:brendahaightt@gmail.com"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
       </div>
-     </footer>
+    </footer>
   </body>
 </html>
