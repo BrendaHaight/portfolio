@@ -282,11 +282,12 @@ h5 {
   cursor: pointer;
 }
 .contact-info {
-  background-color: #2d3134;
+  background-color: hsl(206, 7%, 19%);
   padding: 20px;
-  border: 1px solid #f9004d;
   border-radius: 5px;
   margin-top: 0px;
+  font-size: 75px;
+  text-align: center;
 }
 
 .contact-info h2 {
